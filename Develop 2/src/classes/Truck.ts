@@ -6,6 +6,8 @@ import Wheel from './Wheel.js';
 import AbleToTow from '../interfaces/AbleToTow.js';
 
 // TODO: The Truck class should extend the Vehicle class and should implement the AbleToTow interface
+// when the trust extends the vehicle class, it inherits all the properties and methods of the vehicle class
+//implementing the AbleToTow interface means that the Truck class must have a towingCapacity property and a tow method
 class Truck extends Vehicle implements AbleToTow {
   // TODO: Declare properties of the Truck class
   // TODO: The properties should include vin, color, make, model, year, weight, top speed, wheels, and towing capacity
@@ -89,6 +91,19 @@ class Truck extends Vehicle implements AbleToTow {
     console.log(`Top Speed: ${this.topSpeed} mph`)
     console.log(`Towing Capacity: ${this.towingCapacity} lbs`);
     // TODO: The details should include the VIN, make, model, year, weight, top speed, color, towing capacity, and wheels
+    // Print details of the wheels
+    console.log(
+      `Wheel 1: ${this.wheels[0].getDiameter} inch with a ${this.wheels[0].getTireBrand} tire`
+    );
+    console.log(
+      `Wheel 2: ${this.wheels[1].getDiameter} inch with a ${this.wheels[1].getTireBrand} tire`
+    );
+    console.log(
+      `Wheel 3: ${this.wheels[2].getDiameter} inch with a ${this.wheels[2].getTireBrand} tire`
+    );
+    console.log(
+      `Wheel 4: ${this.wheels[3].getDiameter} inch with a ${this.wheels[3].getTireBrand} tire`
+    );
 }
 }
 
