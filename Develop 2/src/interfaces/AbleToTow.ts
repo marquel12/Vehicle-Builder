@@ -8,8 +8,11 @@ interface AbleToTow {
     // declare the properties
     towingCapacity: number;
     // tow method takes a truck or a motorbike or a car as an argument
-    tow(vehicle: Truck | Motorbike | Car): void;
+    tow(vehicle: Truck | Motorbike | Car): void; 
 }
 
 // export the interface
 export default AbleToTow;
+
+
+// a union operator is used to specify that the tow method can take an argument of type Truck, Motorbike, or Car
