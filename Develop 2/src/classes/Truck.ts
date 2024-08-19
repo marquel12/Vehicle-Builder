@@ -8,10 +8,11 @@ import AbleToTow from '../interfaces/AbleToTow.js';
 // TODO: The Truck class should extend the Vehicle class and should implement the AbleToTow interface
 // when the trust extends the vehicle class, it inherits all the properties and methods of the vehicle class
 //implementing the AbleToTow interface means that the Truck class must have a towingCapacity property and a tow method
-class Truck extends Vehicle implements AbleToTow {
   // TODO: Declare properties of the Truck class
   // TODO: The properties should include vin, color, make, model, year, weight, top speed, wheels, and towing capacity
   // TODO: The types should be as follows: vin (string), color (string), make (string), model (string), year (number), weight (number), topSpeed (number), wheels (Wheel[]), towingCapacity (number)
+class Truck extends Vehicle implements AbleToTow {
+
   vin: string;
   color: string;
   make: string;
