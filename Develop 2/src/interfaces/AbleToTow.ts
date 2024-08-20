@@ -4,6 +4,7 @@ import Motorbike from "../classes/Motorbike.js";
 import Car from "../classes/Car.js";
 
 // define the interface
+// interface is a contract that defines the properties and methods that a class must implement
 interface AbleToTow {
     // declare the properties
     towingCapacity: number;
