@@ -7,7 +7,7 @@
 
 
 
-#### Challenges as a new learner in coding: For this project I created two additional classes, Truck and Motorbike. I added a unique function for both classes. For the truck class I added a function to allow certain trucks who weigh more than cars and motorbikes to be able to tow the vehicle. For motorbikes, I added a function to allow a user to perform an action which would allow the motorbike to wheelie. This was a fun project, I got a chance to learn more about classes and how to properly use another class properties and methods. I've also learned more about the importance of calling your base class before using "this." in constructor. 
+#### Challenges as a new learner in coding: For this project I created two additional classes, Truck and Motorbike. I added a unique function for both classes. For the truck class I added a towing function to allow certain trucks who towing capacity is more than the weight of cars and motorbikes to be able to tow the vehicle. For motorbikes, I added a function to allow a user to perform an action which would allow the motorbike to wheelie. This was a fun project, I got a chance to learn more about classes and how to properly use another class properties and methods. I've also learned more about the importance of calling your base class before using "this." in constructor. 
 
 
 
