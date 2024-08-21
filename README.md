@@ -34,8 +34,12 @@
   #### In order to start the application you must write the following code in your terminal:
   npm start or npm run start. 
 
-  ![How to start application](image.png)
+  ![How to start application in the terminal](image.png)
 
+
+  #### Click on video to check out the functionality of the Truck class in the terminal. [video](https://drive.google.com/file/d/17DvKj8-oRGUdPidCyhiFE1tLuMBpf9Ga/view?pli=1)
+  
+  #### Click on video to check out the functionality of the Motorbike class in the terminal. [video](https://drive.google.com/file/d/1f6yF_ig7sNiEQWRMQJNFZ7iVHIrYZR2h/view)
   
 
   ## Credits 
